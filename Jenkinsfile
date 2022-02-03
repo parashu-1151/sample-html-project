@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('scm') {
             steps {
-                echo "hi"
+                git branch: 'webapp', url: 'https://github.com/parashu-1151/sample-html-project.git'
             }
                
         }
